@@ -33,9 +33,14 @@ The project uses the [Fashion-MNIST Dataset](https://www.kaggle.com/datasets/zal
 
 The KNN classifier was implemented from scratch and optimized using different hyperparameter combinations.
 
-PCA was used for dimensionality reduction, and model performance was evaluated using the Macro F1-Score.
+PCA was used for dimensionality reduction, and model performance was evaluated primarily using the Macro F1-Score.
 
-The final model achieved a Macro F1-Score of approximately **0.86** on the test set.
+The initial model achieved a Macro F1-Score of **0.8599**.
+
+After hyperparameter tuning, the final model achieved:
+- Accuracy: **0.8893**
+- Macro F1-Score: **0.8892**
+- Macro F1 improvement: **+0.0293**
 
 ## Files
 
